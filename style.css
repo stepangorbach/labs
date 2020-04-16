@@ -554,6 +554,14 @@ main{
     max-width: 886px;
 }
 
+.screenWindows{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 960px; 
+    padding-bottom: 10px;
+}
+
 .image{
     max-width: 480px;
 }
