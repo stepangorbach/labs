@@ -453,13 +453,19 @@ header{
     margin-right: 24px;
     transition: 1s;
 }
+
 .vk{
     margin-left: auto;
-    dis
 }
 
 .vk a{
     color: rgb(0, 80, 184);
+    transition: 1s;
+}
+
+.vk a:hover{
+    color: rgb(62, 127, 212);
+    transition: 1s;
 }
 
 .header-content a:hover{
