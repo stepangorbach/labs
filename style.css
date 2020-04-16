@@ -472,12 +472,8 @@ main{
 
 .main-box{
     max-width: 960px;
-    padding-top: 13%;
+    padding-top: 10%;
     margin: 0 auto;
-}
-
-.head:first-child{
-    margin-top: 0;
 }
 
 .head{
@@ -485,32 +481,35 @@ main{
     background-color: rgba(0, 80, 184, 0.95);
     display: flex;    
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     border-radius: 9px 9px 0 0;
 }
 
-
+.head:first-child{
+    margin-top: 0;
+    justify-content: center;
+}
 
 .head h2{
-    font-size: 62px;
+    font-size: 58px;
     font-weight: 700;
-    padding: 36px 0;
+    padding: 42px 0;
     color: white;
     margin: 0 auto;
 }
 
 .head h3{
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 600;
-    padding: 32px 0;
+    padding: 36px 64px;
     color: white;
-    margin: 0 auto;
 }
 
 .content-box{
     background-color: white;
     border-radius: 0 0 9px 9px;
     padding-bottom: 48px;
+    /*--box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);--*/
 }
 
 .content-box h3{
@@ -522,21 +521,34 @@ main{
 
 .content-box p{
     color: #222;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
     padding: 8px 64px;
+    line-height: 1.1em;
 }
 
 .content-box p:first-child{
     padding-top: 30px;
 }
 
-.content-box img{
+.matrix-img{
     display: flex;
     justify-content: center;
     margin: 0 auto;
     max-width: 480px;
 }
+
+.screen{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 886px;
+}
+
+.image{
+    max-width: 480px;
+}
+
 
 .text-box{
     margin: 0 64px 16px 64px;
@@ -560,16 +572,5 @@ main{
     color: rgb(83, 83, 83);
     font-size: 18px;
     padding: 2px 0 0 0;
-}
-
-
-
-
-
-
-
-
-.window{
-    height: 9000px;
 }
 
